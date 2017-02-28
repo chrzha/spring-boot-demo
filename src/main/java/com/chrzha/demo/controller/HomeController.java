@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @EnableAutoConfiguration
-public class FirstController {
+public class HomeController {
 
     @RequestMapping("/")
     @ResponseBody
@@ -21,6 +21,6 @@ public class FirstController {
     }
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(FirstController.class, args);
+        SpringApplication.run(HomeController.class, args);
     }
 }
