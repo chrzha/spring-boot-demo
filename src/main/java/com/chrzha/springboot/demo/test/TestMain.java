@@ -1,4 +1,4 @@
-package com.chrzha.demo.test;
+package com.chrzha.springboot.demo.test;
 
 import java.io.File;
 

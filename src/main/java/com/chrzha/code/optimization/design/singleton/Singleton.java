@@ -1,4 +1,4 @@
-package com.chrzha.code.optimization.design;
+package com.chrzha.code.optimization.design.singleton;
 
 /**
  * Created by chrzha on 17-3-11.

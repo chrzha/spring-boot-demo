@@ -1,4 +1,4 @@
-package com.chrzha.demo.spring.event;
+package com.chrzha.springboot.demo.spring.event;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;

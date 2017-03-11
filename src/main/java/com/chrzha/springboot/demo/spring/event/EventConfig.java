@@ -1,4 +1,4 @@
-package com.chrzha.demo.spring.event;
+package com.chrzha.springboot.demo.spring.event;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

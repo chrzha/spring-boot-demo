@@ -1,4 +1,4 @@
-package com.chrzha.demo.controller;
+package com.chrzha.springboot.demo.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

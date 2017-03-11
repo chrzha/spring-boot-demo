@@ -1,4 +1,4 @@
-package com.chrzha.demo.controller;
+package com.chrzha.springboot.demo.controller;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
