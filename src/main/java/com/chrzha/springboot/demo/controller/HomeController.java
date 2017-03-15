@@ -7,37 +7,22 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+
 /**
  * Created by chrzha on 17-2-27.
  */
 
 @Controller
 @EnableAutoConfiguration
-@ConfigurationProperties(prefix = "user")
 public class HomeController {
 
-    private String name;
-    private int age;
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     @RequestMapping("/")
-    @ResponseBody
-    String home() {
-        return String.format("name: %s, age %s", name, age);
+    String home(Map<String, Object> model) {
+        List<String> users = Arrays.asList("a","b","c","d");
+        model.put("users",users);
+        return "index";
     }
 }
