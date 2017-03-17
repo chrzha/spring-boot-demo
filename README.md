@@ -1,5 +1,8 @@
 # spring-boot-demo
-  Spring Boot
-  Bootstrap JS
-  require.js
-  Backbone.js
+  Backend:
+
+    Spring Boot
+
+  Frontend:
+
+    Bootstrap JS| Require.js| Backbone.js
